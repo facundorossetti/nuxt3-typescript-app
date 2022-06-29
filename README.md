@@ -13,10 +13,12 @@
 
 ## Setup
 Make sure to install the dependencies:
+
 npm install
 
 ## Development Server
 Start the development server on http://localhost:3000
+
 npm run dev
 
 ## Tailwind Config Viewer
@@ -24,4 +26,5 @@ http://localhost:3000/_tailwind/
 
 ## Production
 Build the application for production:
+
 npm run build
