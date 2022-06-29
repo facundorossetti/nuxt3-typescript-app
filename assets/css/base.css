@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "BallingerMono-Medium";
+  src: url('../fonts/ballinger-mono/ballingermono-medium.woff2') format('woff2'), url('~@/assets/fonts/ballinger-mono/ballingermono-medium.woff') format('woff');
+}
+@font-face {
+  font-family: "Ballinger-Regular";
+  src: url('../fonts/ballinger/ballinger-regular.woff2') format('woff2'), url('~@/assets/fonts/ballinger/ballinger-regular.woff') format('woff');
+}
+
+html {
+  line-height: inherit;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}

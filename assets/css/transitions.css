@@ -1,0 +1,29 @@
+.from-top-fade-enter-from{
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.from-top-fade-enter-active,
+.from-top-fade-leave-active {
+  transition: all 0.2s;
+}
+
+.from-top-fade-enter,
+.from-top-fade-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/*page transitions*/
+.page-enter-from{
+  opacity: 0;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
