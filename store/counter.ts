@@ -1,15 +1,20 @@
 import { defineStore } from 'pinia';
 
-export const useStore = defineStore("main", {
-  state: () => {
-    return { count: 0 };
-  },
+interface counter {
+  count: number
+}
+
+export const useStore = defineStore({
+  id: 'main',
+  state: (): counter => ({
+    count: 0
+  }),
   actions: {
-    increment(val = 1) {
+    increment(val:number = 1): void {
       this.count += val;
     },
   },
   getters: {
-    doubleCount: (state) => state.count * 2,
+    doubleCount: (state: any) => state.count * 2,
   },
 });
