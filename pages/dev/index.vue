@@ -21,7 +21,7 @@
 import { Ref } from 'vue';
 
 // USE PINIA STORE
-import { useStore } from '@/store/counter';
+import { useStore } from '@/store/main';
 const store = useStore();
 
 // FETCH DATA USING HOOKS (composable default functions)

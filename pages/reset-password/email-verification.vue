@@ -5,6 +5,6 @@
     <div class="bg-green-click w-32 h-32 mx-auto rounded-full flex items-center justify-center">
         <span class="mdi mdi-email-receive-outline text-primary-green text-5xl"></span>
     </div>
-    <nj-button text="Back to login" go-back-style @click="goTo('login')"/>
+    <nj-back-button class="mt-8" path="login" @click="goTo('login')" />
   </form-container>
 </template>

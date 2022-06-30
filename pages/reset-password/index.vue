@@ -4,5 +4,6 @@
     <p class="font-ballinger mb-6 mt-8">Enter your email address to reset your password.</p>
     <nj-input name="Email" />
     <nj-button text="reset" @click="goTo('reset-password/email-verification')"/>
+    <nj-back-button class="mt-8" path="login" @click="goTo('login')" />
   </form-container>
 </template>
