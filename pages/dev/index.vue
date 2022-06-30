@@ -29,7 +29,7 @@ const {
   data:dogs, 
   pending:pendingDogs,
   refresh:refreshDogs 
-} = await useFetch((): any => 'https://dog.ceo/api/breeds/image/random', {pick: ['message']});
+}: any = await useFetch((): any => 'https://dog.ceo/api/breeds/image/random', {pick: ['message']});
 
 // LIFECYCLE HOOKS
 onBeforeMount(() => console.log("beforeMount"));

@@ -3,7 +3,5 @@
 </template>
 
 <script setup lang="ts">
-onBeforeMount(() => {
-  goTo('login');
-});
+onBeforeMount(() => goTo('login'));
 </script>

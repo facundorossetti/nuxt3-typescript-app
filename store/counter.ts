@@ -1,13 +1,17 @@
 import { defineStore } from 'pinia';
 
-interface counter {
-  count: number
+interface states {
+  count: number,
+  message?: string,
+  arrayObjects?: object[],
 }
 
 export const useStore = defineStore({
   id: 'main',
-  state: (): counter => ({
-    count: 0
+  state: (): states => ({
+    count: 0,
+    message: "hello",
+    arrayObjects: [{}]
   }),
   actions: {
     increment(val:number = 1): void {

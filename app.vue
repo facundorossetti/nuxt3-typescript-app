@@ -6,6 +6,15 @@
   </div>
 </template>
 
+<script setup>
+useHead({
+  title: 'Njorda App',
+  link: [
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
+  ]
+})
+</script>
+
 <style>
 #app {
   min-height: 100vh;
