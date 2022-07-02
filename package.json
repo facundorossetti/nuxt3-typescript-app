@@ -4,14 +4,26 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
+    "lint": "eslint --ext .ts,.js,.vue .",
     "preview": "nuxt preview"
   },
   "devDependencies": {
     "@mdi/font": "^6.7.96",
+    "@nuxtjs/eslint-config-typescript": "^10.0.0",
     "@nuxtjs/tailwindcss": "^5.1.3",
+    "@typescript-eslint/eslint-plugin": "^5.30.3",
+    "@typescript-eslint/parser": "^5.30.3",
     "@vueuse/core": "^8.7.5",
     "@vueuse/nuxt": "^8.7.5",
-    "nuxt": "3.0.0-rc.4"
+    "eslint": "^8.18.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-nuxt": "^3.2.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.1.1",
+    "nuxt": "3.0.0-rc.4",
+    "typescript": "^4.7.4"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.1.9",

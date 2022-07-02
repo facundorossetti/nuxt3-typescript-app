@@ -12,8 +12,8 @@ export const useStore = defineStore({
   state: (): states => ({
     count: 0,
     logged: false,
-    message: "hello",
-    arrayObjects: [{}]
+    message: 'hello',
+    arrayObjects: [{}],
   }),
   actions: {
     increment(val:number = 1): void {

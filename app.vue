@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NuxtLayout name="default">
-      <NuxtPage/>
+      <NuxtPage />
     </NuxtLayout>
   </div>
 </template>
@@ -10,9 +10,9 @@
 useHead({
   title: 'Njorda App',
   link: [
-    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
-  ]
-})
+    { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+  ],
+});
 </script>
 
 <style>
